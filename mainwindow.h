@@ -1,3 +1,5 @@
+#include <QPixmap>
+
 #include <ui_mainwindow.h>
 
 //----------------------------------------------------------------------------
@@ -17,5 +19,7 @@ public slots:
    void on_actionOpen_triggered( bool checked = false );
 
 private:
-   Ui_MainWindow ui;
+   Ui_MainWindow m_ui;
+
+   QPixmap m_pixmap;
 };
