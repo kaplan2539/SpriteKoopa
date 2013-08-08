@@ -1,4 +1,6 @@
 #include <QPixmap>
+#include <QRect>
+#include <QList>
 
 #include <ui_mainwindow.h>
 
@@ -22,4 +24,5 @@ private:
    Ui_MainWindow m_ui;
 
    QPixmap m_pixmap;
+   QList<QRect*> m_rects;
 };
